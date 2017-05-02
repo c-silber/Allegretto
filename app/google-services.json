@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "719292242991",
+    "firebase_url": "https://allegretto-8020a.firebaseio.com",
+    "project_id": "allegretto-8020a",
+    "storage_bucket": "allegretto-8020a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719292242991:android:51b4b1efa787ede4",
+        "android_client_info": {
+          "package_name": "goldie.allegretto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719292242991-8laonb76j8leai49ta1s8cbgmssefshp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldie.allegretto",
+            "certificate_hash": "9562bc241487d6e41a5ce5933b8a8e91d259c59c"
+          }
+        },
+        {
+          "client_id": "719292242991-ik2abpi30cnn1rge3m8a3rfnooc1gm55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT2SmQztJ-V2qz8AOyxTF8t7DzPfQgjyY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719292242991-ik2abpi30cnn1rge3m8a3rfnooc1gm55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

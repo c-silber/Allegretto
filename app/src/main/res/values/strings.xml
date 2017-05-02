@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Allegretto</string>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_short">Register</string>
+    <string name="register_link">Click here to register</string>
+    <string name="login_link">Have an account? Click here to login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="welcome_messages">Welcome, </string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="user_exists">User already exists</string>
+    <string name="invalid_password">The given password is invalid. [  Password should be at least 6 characters ]</string>
+
+    <string name="warning_need_token">You need to request an access token first</string>
+    <string name="code">Code: %1$s</string>
+    <string name="token">Access Token: %1$s</string>
+    <string name="com_spotify_sdk_redirect_scheme"></string>
+    <string name="com_spotify_sdk_redirect_host"></string>
+    <string name="thumbnail">thumbnail</string>
+
+    <string name="health_profile">Health Profile</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="submit">Submit</string>
+    <string name="connect_services">Connect Services</string>
+
+    <string name="login_button_fitbit">Connect to FitBit</string>
+    <string name="connected_fitbit">Connected to FitBit</string>
+
+    <string name="user_info">User</string>
+    <string name="activity_info">Activity</string>
+    <string name="hello_format">Hello %s!</string>
+    <string name="devices">Devices</string>
+    <string name="welcome">Welcome!</string>
+    <string name="fitbit_logo_description">Fitbit Logo</string>
+    <string name="error_loading_devices_format">Error loading devices: %s</string>
+    <string name="error_loading_activities_format">Error loading user activities: %s</string>
+    <string name="error_loading_user_format">Error loading user: %s</string>
+    <string name="scopes_missing_format">`%s` scope(s) required to function correctly.</string>
+    <string name="login_title">Login</string>
+    <string name="missing_scopes_error">Error logging in. Missing the following required scopes: </string>
+    <string name="login_dismissed">Login dismissed or no scopes selected</string>
+    <string name="no_data">No data</string>
+    <string name="loading">Loading…</string>
+    <string name="error_loading_data">Error loading data. Check your internet connection and try
+        again later.
+    </string>
+
+
+    <string name="title_activity_demo">Spotify Android SDK Demo</string>
+    <string name="login_button_label">Connect to Spotify</string>
+    <string name="logout_button_label">Connected to Spotify</string>
+    <string name="play_track_button_label">Track</string>
+    <string name="play_playlist_button_label">Playlist</string>
+    <string name="play_mono_track_button_label">Play mono track</string>
+    <string name="play_48khz_track_button_label">Play 48kHz track</string>
+    <string name="play_album_button_label">Album</string>
+    <string name="pause_button_label_toggle">Pause/Resume</string>
+    <string name="skip_next_button_label">Next</string>
+    <string name="skip_prev_button_label">Previous</string>
+    <string name="toggle_shuffle_button_toggle">Toggle shuffle</string>
+    <string name="toggle_repeat_button_label_toggle">Toggle repeat</string>
+    <string name="seek_button_label">Seek</string>
+    <string name="queue_button_label">Queue a song</string>
+    <string name="song_queued_toast">Song queued!</string>
+    <string name="high_bitrate_button_label">320kbps</string>
+    <string name="normal_bitrate_button_label">160kbps</string>
+    <string name="low_bitrate_button_label">96kbps</string>
+    <string name="no_metadata">no metadata</string>
+
+    <string name="min_age">Minimum age for Allegretto is 18</string>
+    <string name="invalid_age">Age is invalid.</string>
+    <string name="invalid_height">Height is invalid</string>
+    <string name="invalid_weight">Weight is invalid</string>
+
+    <string name="peak">Peak</string>
+    <string name="cardio">Cardio</string>
+    <string name="fat_burn">Fat Burn</string>
+    <string name="finish_workout">Finish Workout</string>
+
+    <string name="workout_complete">Workout Complete</string>
+
+    <string name="start_workout">Start Workout</string>
+
+    <string name="complete_auth">Continue</string>
+    <string name="playlist">Playlist</string>
+
+    <string name="save_playlist">Save Playlist</string>
+    <string name="previous_workouts">Previous Workouts</string>
+
+    <string name="date">Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+
+
+
+</resources>

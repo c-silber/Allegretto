@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ScrollView
+        android:id="@+id/health_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:id="@+id/health_profile_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/welcome_messages"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/music_pref"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/submit"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/submit"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/previousWorkout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/previous_workouts"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TableLayout
+                android:layout_marginLeft="30px"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tblPrevious"
+                android:padding="5dp"
+                android:minWidth="25px"
+                android:minHeight="25px"></TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
